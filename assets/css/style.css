@@ -91,8 +91,9 @@ nav ul li a{
     transform: translateY(-80px);
     width: 60vw;
     height: 300px;
-    background-color: #d8ca9a;
+    background-color: #dbcd9d;
     z-index: 2;
     position: relative;
     border-radius: 20px;
 }
+
