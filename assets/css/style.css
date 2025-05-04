@@ -1,0 +1,98 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #F2EDDC;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5D7369;
+    padding: 20px;
+    height: 12vh;
+    
+}
+
+.redes__sociais{
+    display: flex;
+    gap: 20px;
+}
+
+.logotipo__cabecalho{
+    width: 20%;
+    height: auto;
+}
+
+.login__carrinho-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carrinho__acesso{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login__texto, .carrinho__texto{
+    font-size: 20px;
+}
+
+nav{
+    background-color: #AABFA4;
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff1c0;
+}
+
+.banner{
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;  
+    height: 80vh;
+}
+
+.banner__destaque{
+    display: grid;
+    place-items: center;
+}
+
+.produtos__destaque{
+    transform: translateY(-80px);
+    width: 60vw;
+    height: 300px;
+    background-color: #d8ca9a;
+    z-index: 2;
+    position: relative;
+    border-radius: 20px;
+}
